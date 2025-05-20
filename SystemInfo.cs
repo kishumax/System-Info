@@ -13,6 +13,12 @@ namespace System_Info
 
         private void SystemInfo_Load(object sender, EventArgs e)
         {
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+
 
             try
             {
